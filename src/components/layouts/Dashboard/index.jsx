@@ -2,7 +2,7 @@ import React from "react";
 import Router, { Link, RouteHandler } from "react-router";
 
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem, ProgressBar} from "react-bootstrap";
-import $ from "jquery";
+import $ from "jQuery";
 import classNames from "classnames";
 
 var HomePage = React.createClass({
