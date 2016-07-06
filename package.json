@@ -1,7 +1,7 @@
 {
-  "name": "essential-react",
-  "version": "0.3.0",
-  "description": "A minimal skeleton for building testable React apps using ES6.",
+  "name": "sb-admin-react",
+  "version": "0.0.1",
+  "description": "Starter theme for React JS Dashboard Apps.",
   "main": "src/main.jsx",
   "scripts": {
     "postinstall": "npm run build",
