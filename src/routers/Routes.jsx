@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Route, IndexLink, RouteHandler, Redirect } from "react-router";
+import { Router, Route, IndexLink, RouteHandler, Redirect, DefaultRoute, IndexRedirect} from "react-router";
 
 import BaseLayout from "../components/layouts/Base";
 import DashboardLayout from "../components/layouts/Dashboard";
@@ -25,6 +25,7 @@ var Routes = React.createClass({
     getRoutes: function() {
       return (
           <Route name="base" path="/" component={BaseLayout}>
+            <IndexRedirect  to="/home"/>
             <Route name="dashboard" path="/dashboard" component={DashboardLayout}>
               <Route name="dashboard.home" path="/home" component={DashboardHomePage} />
               <Route name="dashboard.flot-charts" path="/flot-charts" component={DashboardFlotChartsPage} />
@@ -38,12 +39,9 @@ var Routes = React.createClass({
               <Route name="dashboard.icons" path="/icons" component={DashboardIconsPage} />
               <Route name="dashboard.grid" path="/grid" component={DashboardGridPage} />
               <Route name="dashboard.blank" path="/blank" component={DashboardBlankPage} />
-              <IndexLink name="dashboard.default" component={DashboardHomePage} />
             </Route>
             <Route name="login" path="/login" component={LoginPage} />
             <Route name="logout" path="/logout" component={LogoutPage} />
-            <IndexLink name="default" component={DashboardLayout} />
-            <Redirect from="/" to="dashboard.home" />
           </Route>
       );
     }
