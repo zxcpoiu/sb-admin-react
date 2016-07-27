@@ -4,7 +4,7 @@ import {Panel, Button, Input, Label, FormControls, Row, Col, PageHeader} from 'r
 var Forms = React.createClass({
 
   render: function() {
-    
+
     return (
 
       <div>
@@ -24,14 +24,13 @@ var Forms = React.createClass({
                   <form>
                     <Input type="text" label="Text Input" help="Example block-level help text here." />
                     <Input type="text" label="Text Input with Placeholder" placeholder="Enter text" />
-                    <FormControls.Static label="Static Control">email@example.com</FormControls.Static>
                     <Input type="file" label="File Input" />
                     <Input type="textarea" label="Text area" rows="3" />
                     <h5><strong>Checkboxes</strong></h5>
                     <Input type="checkbox" label="Checkbox 1" />
                     <Input type="checkbox" label="Checkbox 2" />
                     <Input type="checkbox" label="Checkbox 3" />
-                                
+
                     <Row>
                       <Col xs={4}>
                         <h5><strong>Inline Checkboxes</strong></h5>
@@ -46,12 +45,12 @@ var Forms = React.createClass({
                         <Input type="checkbox" label="3" />
                       </Col>
                     </Row>
-                                    
+
                     <h5><strong>Radio Buttons</strong></h5>
                     <Input type="radio" label="Radio 1" />
                     <Input type="radio" label="Radio 2" />
                     <Input type="radio" label="Radio 3" />
-                                    
+
                     <Row>
                       <Col xs={4}>
                         <h5><strong>Inline Radio Buttons</strong></h5>
@@ -66,7 +65,7 @@ var Forms = React.createClass({
                         <Input type="radio" label="3" />
                       </Col>
                     </Row>
-                                    
+
                     <Input type="select" label="Select" placeholder="select">
                       <option value="1">1</option>
                       <option value="1">2</option>
@@ -116,7 +115,7 @@ var Forms = React.createClass({
           </div>
         </div>
       </div>
-      
+
     );
   }
 

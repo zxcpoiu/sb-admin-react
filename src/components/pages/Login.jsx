@@ -1,5 +1,5 @@
 import React from 'react';
-import Router from 'react-router';
+import { Router } from 'react-router';
 import {Panel, Input, Button} from 'react-bootstrap';
 
 var LoginPage = React.createClass({
@@ -15,7 +15,7 @@ var LoginPage = React.createClass({
   mixins: [Router.Navigation],
 
   render: function(){
-  
+
     return <div className="col-md-4 col-md-offset-4">
 
         <div className="text-center">
@@ -36,14 +36,14 @@ var LoginPage = React.createClass({
               </div>
               <Input type="checkbox" label="Remember Me" />
               <Button type="submit" bsSize="large" bsStyle="success" block>Login</Button>
-              
+
             </fieldset>
           </form>
 
         </Panel>
-        
+
       </div>
-      
+
 
   },
 

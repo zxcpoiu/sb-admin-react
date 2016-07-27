@@ -20,33 +20,33 @@ var Home = React.createClass({
             <StatWidget style="primary"
                     icon="fa fa-comments fa-5x"
                     count="26"
-                    headerText="New Comments!" 
+                    headerText="New Comments!"
                     footerText="View Details"
                     linkTo="/" />
           </div>
           <div className="col-lg-3 col-md-6">
-            <StatWidget style = "panel-green"
+            <StatWidget style = "green"
                     icon = "fa fa-tasks fa-5x"
                     count = "12"
-                    headerText="New Tasks!" 
+                    headerText="New Tasks!"
                     footerText="View Details"
                     linkTo="/" />
           </div>
           <div className="col-lg-3 col-md-6">
-            <StatWidget style="panel-yellow"
+            <StatWidget style="yellow"
                     icon="fa fa-shopping-cart fa-5x"
                     count="124"
-                    headerText="New Orders!" 
+                    headerText="New Orders!"
                     footerText="View Details"
                     linkTo="/" />
           </div>
           <div className="col-lg-3 col-md-6">
-            <StatWidget style="panel-red"
+            <StatWidget style="red"
                     icon="fa fa-support fa-5x"
                     count="13"
-                    headerText="Support Tickets!" 
+                    headerText="Support Tickets!"
                     footerText="View Details"
-                    linkTo="/" />                            
+                    linkTo="/" />
           </div>
         </div>
 
@@ -92,7 +92,7 @@ var Home = React.createClass({
 
             <Panel header={<span>
               <i className="fa fa-clock-o fa-fw"></i> Responsive Timeline
-              </span>} 
+              </span>}
             >
               <div>
                 Panel contents
@@ -105,7 +105,7 @@ var Home = React.createClass({
 
             <Panel header={<span>
               <i className="fa fa-bell fa-fw"></i> Notifications Panel
-              </span>} 
+              </span>}
             >
               <ListGroup>
                 <ListGroupItem href="javascript:void(0)"><i className="fa fa-comment fa-fw"></i> New Comment
