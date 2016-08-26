@@ -1,6 +1,6 @@
 {
   "name": "sb-admin-react",
-  "version": "0.0.1",
+  "version": "0.4.0",
   "description": "Starter theme for React JS Dashboard Apps.",
   "main": "src/main.jsx",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/start-react/sb-admin-react.git"
+    "url": "https://github.com/ssteinerX/sb-admin-react.git"
   },
   "keywords": [
     "skeleton",
@@ -22,10 +22,11 @@
     "react",
     "quickstart"
   ],
-  "author": "Mark Fayngersh",
+  "author": "Mark Fayngersh, Steve Steiner (ssteinerX)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/start-react/sb-admin-react/issues"
+    "url": "https://github.com/start-react/sb-admin-react/issues",
+    "url": "https://github.com/ssteinerX/sb-admin-react/issues"
   },
   "homepage": "https://github.com/start-react/sb-admin-react",
   "devDependencies": {

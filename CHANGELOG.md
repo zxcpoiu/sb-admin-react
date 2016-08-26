@@ -1,5 +1,22 @@
-# v?
-- ssteinerX project update, not sure if anyone's going to merge this back in, haven't tagged yet.
+# v0.4.0 -- August 26, 2016
+---------------------------
+Putting a big fork in the ground!
+
+This is a big move forward for this project as it:
+
+	Merges evonck's changes to update:
+	    react from 0.13.3 to ^15.2.1
+	    react-bootstrap from 0.25.2 to ^0.30.0
+	    react-router from ^0.13.3 to ^2.6.0
+	    reflux from ^0.2.12 to ^0.4.1
+
+Pointed repo URL at ssteinerX GitHub URL since original author seems not
+interested.
+
+Added ssteinerX issues URL to "bugs" key, though I'm not sure there can be
+multiple destinations for issues.
+
+Added ssteinerX authorship to package.json.
 
 # v0.3.0
 
