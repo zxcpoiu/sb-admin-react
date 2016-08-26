@@ -4,6 +4,7 @@
 
 // Polyfill
 
+// import "babel-polyfill";
 import "babel-core/polyfill";
 
 // Libraries
