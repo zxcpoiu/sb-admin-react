@@ -1,8 +1,8 @@
-Contributors:
+Original repository: [start-react](https://github.com/start-react/sb-admin-react)
 
-	Original repository: https://github.com/start-react/sb-admin-react
+Contributors to the: [ssteinerX-fork](https://github.com/ssteinerX/sb-admin-react) fork
 
-Contributors to the https://github.com/ssteinerx/sb-admin-react fork:
+[ssteinerX](https://github.com/ssteinerx)
 
-	(ssteinerX)[https://github.com/ssteinerx]
-	(evonck)[https://github.com/evonck/sb-admin-react]
+[evonck](https://github.com/evonck/sb-admin-react)
+
