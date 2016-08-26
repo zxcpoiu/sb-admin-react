@@ -35,7 +35,7 @@ var Home = React.createClass({
                     linkTo="/" />
           </div>
           <div className="col-lg-3 col-md-6">
-            <StatWidget style = "panel-green"
+            <StatWidget style = "green"
                     icon = "fa fa-tasks fa-5x"
                     count = "12"
                     headerText="New Tasks!"
@@ -43,7 +43,7 @@ var Home = React.createClass({
                     linkTo="/" />
           </div>
           <div className="col-lg-3 col-md-6">
-            <StatWidget style="panel-yellow"
+            <StatWidget style="yellow"
                     icon="fa fa-shopping-cart fa-5x"
                     count="124"
                     headerText="New Orders!"
@@ -51,7 +51,7 @@ var Home = React.createClass({
                     linkTo="/" />
           </div>
           <div className="col-lg-3 col-md-6">
-            <StatWidget style="panel-red"
+            <StatWidget style="red"
                     icon="fa fa-support fa-5x"
                     count="13"
                     headerText="Support Tickets!"

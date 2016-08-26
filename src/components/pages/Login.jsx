@@ -1,6 +1,6 @@
 import React from 'react';
-import Router from 'react-router';
-import {Panel, Input, Button} from 'react-bootstrap';
+import { Router } from 'react-router';
+import {Panel, FormControl, Button, Checkbox} from 'react-bootstrap';
 
 var LoginPage = React.createClass({
 
@@ -15,7 +15,7 @@ var LoginPage = React.createClass({
   mixins: [Router.Navigation],
 
   render: function(){
-  
+
     return <div className="col-md-4 col-md-offset-4">
 
         <div className="text-center">
@@ -27,23 +27,20 @@ var LoginPage = React.createClass({
 
           <form role="form" onSubmit={this.handleLogin}>
             <fieldset>
-              <div className="form-group">
-                <Input onChange={this.setLoginID} className="form-control" placeholder="Username" ref="loginID" type="text" autofocus="" name="name" />
-              </div>
-
-              <div className="form-group">
-                <Input onChange={this.setPassword} className="form-control" placeholder="Password" ref="password" type="password" name="password" />
-              </div>
-              <Input type="checkbox" label="Remember Me" />
+                <FormControl placeholder="Username" />
+                <FormControl placeholder="Password" />
+                <Checkbox inline>
+                  Remember Me
+                </Checkbox>
               <Button type="submit" bsSize="large" bsStyle="success" block>Login</Button>
-              
+
             </fieldset>
           </form>
 
         </Panel>
-        
+
       </div>
-      
+
 
   },
 
