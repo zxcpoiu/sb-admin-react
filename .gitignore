@@ -1,4 +1,8 @@
+# Private development todolists &c
 ToDo.md
+.babelrc.moved.aside
+package.json.too.many.updates
+
 # Build, all can be recreated by
 # npm run build, therefore don't store
 build/*.js
