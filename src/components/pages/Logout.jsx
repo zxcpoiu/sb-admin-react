@@ -1,19 +1,25 @@
 var React = require('react');
-var Router = require('react-router');
+import {withRouter} from 'react-router';
 
+// TODO, this doesn't really do aything.
 var LogoutPage = React.createClass({
     
   componentWillMount: function(){
 
   },
   
-  mixins: [Router.Navigation],
-
   render: function(){
 
   		return <div></div>;
-  }
+  },
 
+  handleLogout: function(e){
+
+    this.props.router.push('login');
+
+    return false;
+
+  }
 });
 
 export default LogoutPage;

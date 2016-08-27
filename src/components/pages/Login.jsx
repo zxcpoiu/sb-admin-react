@@ -2,6 +2,10 @@ import React from 'react';
 import { Router } from 'react-router';
 import {Panel, FormControl, Button, Checkbox} from 'react-bootstrap';
 
+// Navigation mixin doesn't seem to exist
+// http://stackoverflow.com/questions/31079081/programmatically-navigate-using-react-router
+import {withRouter} from 'react-router';
+
 var LoginPage = React.createClass({
 
   getInitialState: function(){
@@ -11,8 +15,6 @@ var LoginPage = React.createClass({
       isSubmitted: false
     };
   },
-
-  mixins: [Router.Navigation],
 
   render: function(){
 
@@ -64,7 +66,7 @@ var LoginPage = React.createClass({
 
   handleLogin: function(e){
 
-    this.transitionTo('dashboard');
+    this.props.router.push('dashboard');
 
     return false;
 
