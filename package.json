@@ -25,24 +25,26 @@
   "author": "Mark Fayngersh, Steve Steiner (ssteinerX)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/start-react/sb-admin-react/issues",
     "url": "https://github.com/ssteinerX/sb-admin-react/issues"
   },
   "homepage": "https://github.com/start-react/sb-admin-react",
   "devDependencies": {
+    "chai": "^3.5.0",
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.7",
     "istanbul-instrumenter-loader": "^0.1.2",
-    "karma": "^0.13.9",
-    "karma-coverage": "^0.2.7",
-    "karma-mocha": "^0.1.10",
-    "karma-phantomjs-launcher": "^0.1.4",
-    "karma-sauce-launcher": "^0.2.10",
-    "karma-sinon-chai": "^0.3.0",
+    "karma": "^1.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-sauce-launcher": "^1.0.0",
+    "karma-sinon-chai": "^1.2.3",
     "karma-webpack": "^1.5.0",
     "mocha": "^2.5.3",
     "phantomjs": "^1.9.16",
     "react-hot-loader": "^1.2.3",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0",
     "webpack-dev-server": "^1.7.0"
   },
   "dependencies": {
