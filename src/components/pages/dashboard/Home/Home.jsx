@@ -13,9 +13,26 @@ import {NavDropdown,
 
 import StatWidget from "../../../common/StatWidget.js";
 
-var Home = React.createClass({
+class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {count: 0};
+    this.tick = this.tick.bind(this);
+  }
 
-  render: function() {
+  tick() {
+    this.setState({count: this.state.count + 1});
+  }
+
+  componentDidMount() {
+    this.interval = setInterval(this.tick, 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
+
+  render() {
     return (
       <div>
 
@@ -26,16 +43,17 @@ var Home = React.createClass({
         </div>
 
         <div className="row">
-          <div className="col-lg-3 col-md-6">
-            <StatWidget style="primary"
+          <div className="col-lg-3 col-md-6" id="sw1">
+            <StatWidget
+                    style="yellow"
                     icon="fa fa-comments fa-5x"
-                    count="26"
+                    count={this.state.count}
                     headerText="New Comments!"
                     footerText="View Details"
                     linkTo="/" />
           </div>
           <div className="col-lg-3 col-md-6">
-            <StatWidget style = "green"
+            <StatWidget style = "red"
                     icon = "fa fa-tasks fa-5x"
                     count = "12"
                     headerText="New Tasks!"
@@ -43,7 +61,7 @@ var Home = React.createClass({
                     linkTo="/" />
           </div>
           <div className="col-lg-3 col-md-6">
-            <StatWidget style="yellow"
+            <StatWidget style="warning"
                     icon="fa fa-shopping-cart fa-5x"
                     count="124"
                     headerText="New Orders!"
@@ -51,7 +69,7 @@ var Home = React.createClass({
                     linkTo="/" />
           </div>
           <div className="col-lg-3 col-md-6">
-            <StatWidget style="red"
+            <StatWidget style="danger"
                     icon="fa fa-support fa-5x"
                     count="13"
                     headerText="Support Tickets!"
@@ -173,6 +191,7 @@ var Home = React.createClass({
     );
   }
 
-});
+}
+Home.defaultProps = { count: 0 };
 
 export default Home;
