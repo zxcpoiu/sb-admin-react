@@ -1,3 +1,14 @@
+# v0.4.1 -- August 28, 2016
+---------------------------
+All dependencies are up to date with the exception of Babel which I'll tackle
+at some point.
+
+Refactored package.json to put dependencies that aren't required at runtime
+into devDependencies where they belong.
+
+Reduced build/ contents from 3.9M in v0.3.0 to 2.0M in 0.4.1!
+
+
 # v0.4.0 -- August 26, 2016
 ---------------------------
 Putting a big fork in the ground!
