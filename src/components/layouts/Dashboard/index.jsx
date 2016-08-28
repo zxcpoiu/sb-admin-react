@@ -16,13 +16,10 @@ var HomePage = React.createClass({
   },
 
   componentWillUnmount: function(){
-
     $(window).unbind('resize',this.adjustResize);
-
   },
 
   getInitialState: function(){
-
     return {
       uiElementsCollapsed: true,
       chartsElementsCollapsed: true,
@@ -30,7 +27,6 @@ var HomePage = React.createClass({
       thirdLevelDropdownCollapsed: true,
       samplePagesCollapsed: true
     };
-
   },
 
   toggleMenu: function(){
@@ -43,7 +39,6 @@ var HomePage = React.createClass({
   },
 
   render: function() {
-
     return (
         <div id="wrapper" className="content">
             <Navbar>

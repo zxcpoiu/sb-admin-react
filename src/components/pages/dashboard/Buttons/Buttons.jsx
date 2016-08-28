@@ -7,11 +7,8 @@ var Buttons = React.createClass({
     return (
 
       <div>
-
-        <div className="row">
-            <div className="col-lg-12">
-                <PageHeader>Buttons</PageHeader>
-            </div>
+        <div className="row col-lg-12">
+          <PageHeader>Buttons</PageHeader>
         </div>
 
         <div className="row">
@@ -177,7 +174,7 @@ var Buttons = React.createClass({
                 <Button bsStyle="link" className="btn-social-icon btn-pinterest">
                   <i className="fa fa-pinterest"></i>
                 </Button>
-                <Button bsStyle="link" className="btn-social-icon btn-tumblr">   
+                <Button bsStyle="link" className="btn-social-icon btn-tumblr">
                   <i className="fa fa-tumblr"></i>
                 </Button>
                 <Button bsStyle="link" className="btn-social-icon btn-twitter">
@@ -192,7 +189,7 @@ var Buttons = React.createClass({
           </div>
         </div>
       </div>
-      
+
     );
   }
 

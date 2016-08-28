@@ -3,8 +3,6 @@
  */
 
 // Polyfill
-
-// import "babel-polyfill";
 import "babel-core/polyfill";
 
 // Libraries
@@ -12,7 +10,6 @@ import React from "react";
 import { Router } from 'react-router';
 import { browserHistory } from 'react-router'
 import ReactDOM from 'react-dom'
-
 
 // Base styling
 import "./common/styles/app.less";
