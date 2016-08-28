@@ -1,5 +1,4 @@
 import React from "react";
-import { Route, DefaultRoute } from "react-router";
 
 var Base = React.createClass({
 
