@@ -36,14 +36,12 @@ class Home extends React.Component {
     return (
       <div>
 
-        <div className="row">
-          <div className="col-lg-12">
+        <div className="row col-lg-12">
             <PageHeader>Dashboard</PageHeader>
-          </div>
         </div>
 
         <div className="row">
-          <div className="col-lg-3 col-md-6" id="sw1">
+          <div className="col-lg-3 col-md-6">
             <StatWidget
                     style="yellow"
                     icon="fa fa-comments fa-5x"
