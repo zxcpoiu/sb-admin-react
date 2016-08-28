@@ -1,0 +1,26 @@
+Dear sb-admin-react Forker,
+
+	Hi, my name is Steve Steiner, aka/ssteinerX, a fellow forker of the:
+
+	https://github.com/start-react/sb-admin-react
+
+	repository.
+
+	I have made major progress in bringing everything up to date
+(React 15.3.x and *all* other dependencies other than Babel and jQuery) and
+wonder if you have any further interest in the project.
+
+	If not, please just ignore this message and I apologize for any
+inconvenience.
+
+	If so, please check out my fork at:
+
+		 https://github.com/ssteinerx/sb-admin-react
+
+	Issues are open, pull requests gladly accepted.
+
+Thanks,
+
+Steve Steiner
+ssteinerX@gmail.com
+https://github.com/ssteinerx
