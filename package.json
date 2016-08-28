@@ -17,9 +17,11 @@
     "url": "https://github.com/ssteinerX/sb-admin-react.git"
   },
   "keywords": [
+    "sb-admin",
+    "bootstrap",
+    "react",
     "skeleton",
     "template",
-    "react",
     "quickstart"
   ],
   "author": "Mark Fayngersh, Steve Steiner (ssteinerX)",
@@ -27,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/ssteinerX/sb-admin-react/issues"
   },
-  "homepage": "https://github.com/start-react/sb-admin-react",
+  "homepage": "https://github.com/ssteinerX/sb-admin-react",
   "devDependencies": {
     "chai": "^3.5.0",
     "coveralls": "^2.11.2",
