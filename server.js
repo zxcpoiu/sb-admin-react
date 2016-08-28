@@ -75,6 +75,9 @@ if (!process.env.PRODUCTION) {
     if (err) {
       console.log(err);
     }
+    else{
+      console.log("Using webpack server @9090")
+    }
   });
 }
 
