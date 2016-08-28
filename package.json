@@ -31,6 +31,8 @@
   },
   "homepage": "https://github.com/ssteinerX/sb-admin-react",
   "devDependencies": {
+    "babel-core": "^5.4.7",
+    "babel-loader": "^5.1.3",
     "chai": "^3.5.0",
     "coveralls": "^2.11.2",
     "istanbul": "^0.4.5",
@@ -51,8 +53,6 @@
   },
   "dependencies": {
     "autoprefixer": "^6.0.2",
-    "babel-core": "^5.4.7",
-    "babel-loader": "^5.1.3",
     "bootstrap": "^3.3.7",
     "bootstrap-social": "^5.0.0",
     "bundle-loader": "^0.5.4",
