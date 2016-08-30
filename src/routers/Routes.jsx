@@ -20,7 +20,6 @@ import LoginPage from "../components/pages/Login";
 import LogoutPage from "../components/pages/Logout";
 
 var Routes = React.createClass({
-
   statics: {
     getRoutes: function() {
       return (
@@ -47,9 +46,7 @@ var Routes = React.createClass({
     }
   },
   render: function() {
-
   }
-
 });
 
 export default Routes;
